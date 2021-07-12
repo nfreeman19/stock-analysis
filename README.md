@@ -14,6 +14,16 @@ Execution times were both very quick.
 
 As you can see from the postive numbers in 🟢 and the negative numbers in 🔴 the returns were better ad higher in 2017. Returns in 2018 we're mostly negative.
 
+Helpful when running these results the helpful code letting us loop through the arrays to output the Ticker, Total Daily Volume, and Return was:
+
+        For i = 0 To 11
+        
+        Worksheets("All Stocks Analysis").Activate
+    
+        Cells(4 + i, 1).Value = tickers(i)
+        Cells(4 + i, 2).Value = tickerVolumes(i)
+        Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
+
 Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 Summary: In a summary statement, address the following questions.
 What are the advantages or disadvantages of refactoring code?
