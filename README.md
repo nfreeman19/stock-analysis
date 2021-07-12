@@ -14,7 +14,13 @@ Execution times were both very quick.
 
 As you can see from the postive numbers in 🟢 and the negative numbers in 🔴 the returns were better ad higher in 2017. Returns in 2018 we're mostly negative.
 
-Helpful when running these results the helpful code letting us loop through the arrays to output the Ticker, Total Daily Volume, and Return was:
+When refactoring the results we needed to create three output arrays
+     
+        Dim tickerVolumes(12) As Long
+        Dim tickerStartingPrices(12) As Single
+        Dim tickerEndingPrices(12) As Single
+        
+When running these results the helpful code letting us loop through the arrays to output the Ticker, Total Daily Volume, and Return was:
 
         For i = 0 To 11
         
