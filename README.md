@@ -12,7 +12,7 @@ The images above are the results after running 2017 and 2018.
 
 Execution times were both very quick. 
 
-As you can see from the postive numbers <span style=“color:green;”> Green </span> and the negative numbers (red) the returns were better ad higher in 2017. Returns in 2018 we're mostly negative.
+As you can see from the postive numbers in 🟢 and the negative numbers in 🔴 the returns were better ad higher in 2017. Returns in 2018 we're mostly negative.
 
 Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 Summary: In a summary statement, address the following questions.
