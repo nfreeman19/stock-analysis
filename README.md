@@ -1,7 +1,7 @@
 # stock-analysis
-##Module 2
+## Module 2
 
-###Overview of Project:
+### Overview of Project:
 
 ![myTest](https://github.com/nfreeman19/stock-analysis/blob/main/resources/2017.png) 
 ![myTest](https://github.com/nfreeman19/stock-analysis/blob/main/resources/2018.png)
